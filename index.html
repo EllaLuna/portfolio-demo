@@ -8,6 +8,7 @@
   <meta name="description" content="Gameplay programmer working in Godot and Unity. Sole programmer on A Mind Apart, coming to Steam.">
   <meta name="color-scheme" content="dark light">
   <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -46,12 +47,56 @@
 
     <section id="work" class="wrap section" aria-labelledby="work-title">
       <h2 id="work-title">Work</h2>
-      <p class="placeholder">Project cards arrive in M2.</p>
+      <ul class="project-grid">
+        <li class="project-card">
+          <!-- TODO: add card-poster.webp (1280x720) and card-loop.mp4 (6-8 s, no audio) -->
+          <div class="card-media">
+            <video muted loop playsinline preload="none" width="1280" height="720"
+                   poster="assets/img/a-mind-apart/card-poster.webp"
+                   aria-label="Gameplay clip from A Mind Apart">
+              <source src="assets/video/a-mind-apart/card-loop.mp4" type="video/mp4">
+            </video>
+            <button class="loop-toggle" type="button" hidden>Pause</button>
+          </div>
+          <div class="card-body">
+            <h3><a href="projects/a-mind-apart.html">A Mind Apart</a></h3>
+            <!-- TODO: one sentence about the game, and its genre below -->
+            <p class="card-desc">One-sentence description of the game.</p>
+            <p class="role-line">Genre · Sole programmer · Team of 3 · Godot · Coming to Steam</p>
+            <div class="card-actions">
+              <!-- TODO: real demo link -->
+              <a class="btn btn-primary" href="https://store.steampowered.com/app/TODO" rel="noopener">Play demo</a>
+              <a href="projects/a-mind-apart.html">View project →</a>
+            </div>
+          </div>
+        </li>
+
+        <li class="project-card">
+          <div class="card-media">
+            <video muted loop playsinline preload="none" width="1280" height="720"
+                   poster="assets/img/increcat-cafe/card-poster.webp"
+                   aria-label="Gameplay clip from Increcat Café">
+              <source src="assets/video/increcat-cafe/card-loop.mp4" type="video/mp4">
+            </video>
+            <button class="loop-toggle" type="button" hidden>Pause</button>
+          </div>
+          <div class="card-body">
+            <h3><a href="projects/increcat-cafe.html">Increcat Café</a></h3>
+            <p class="card-desc">One-sentence description of the game.</p>
+            <p class="role-line">Genre · Programmer · Team of 2 · Godot · In development</p>
+            <div class="card-actions">
+              <!-- TODO: real itch.io page -->
+              <a class="btn" href="https://TODO.itch.io/increcat-cafe" rel="noopener">itch.io</a>
+              <a href="projects/increcat-cafe.html">View project →</a>
+            </div>
+          </div>
+        </li>
+      </ul>
     </section>
 
     <section id="about" class="wrap section" aria-labelledby="about-title">
       <h2 id="about-title">About</h2>
-      <p class="placeholder">About text arrives in M2.</p>
+      <p>I'm a gameplay programmer working mainly in Godot (GDScript), with a background in Unity (C#).</p>
     </section>
   </main>
 
