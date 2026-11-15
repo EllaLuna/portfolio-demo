@@ -2,10 +2,10 @@
 # Game dev portfolio
 
 ## Purpose
-Static portfolio site on GitHub Pages. Its only job is to help me land a full-time game dev job. Judge every suggestion by whether it makes me more hireable: faster to scan, easier to navigate, clearer about what I built and what my role was. If a request works against that, say so.
+Static portfolio site on GitHub Pages. Its only job is showcase my work and games. Judge every suggestion by whether it makes the site more attractive: faster to scan, easier to navigate, clearer about whatthe games are. If a request works against that, say so.
 
 ## Audience
-Hiring managers and recruiters at game studios. Busy, skim for under a minute. They want my best work fast, my specific contribution, and contact details and resume without hunting.
+Potential players, hiring managers and recruiters at game studios. Busy, skim for under a minute. They want my best work fast.
 
 ## Working style
 - Be direct and concise, like a senior dev colleague. No filler, flattery, or long preambles.
