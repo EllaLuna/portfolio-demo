@@ -255,6 +255,8 @@ ul[class] { list-style: none; margin: 0; padding: 0; }
 }
 .trailer-link:hover .trailer-play,
 .trailer-link:focus-visible .trailer-play { background: var(--accent); }
+.trailer-link:hover .trailer-play::after,
+.trailer-link:focus-visible .trailer-play::after { border-left-color: var(--accent-text); }
 
 .clip-grid, .shot-grid {
   display: grid;
